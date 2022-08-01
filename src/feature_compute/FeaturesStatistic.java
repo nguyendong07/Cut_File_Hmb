@@ -1084,46 +1084,7 @@ public double getIgTheta(){ //
 	 
 	 
 	 
-//	 public double MavWaveletYLevelOne () {
-//		 double[] output = discreteHaarWaveletTransform(y, 1);
-//		 double s = 0;
-//		 for (int i = 0; i < output.length/2 ; i++) {
-//			 s = s + Math.abs(output[i]);
-//		 }
-//		 return s/(output.length/2);
-//	 }
-//	 
-//	 
-//	 
-//	 public double AvpWaveletYLevelOne () {
-//		 double[] output = discreteHaarWaveletTransform(y, 1);
-//		 double s = 0;
-//		 for (int i = 0; i < output.length/2 ; i++) {
-//			 s = s + Math.pow(output[i],2);
-//		 }
-//		 return s/(output.length/2);
-//	 }
-//	 
-//	 
-//	 public double MavWaveletZLevelOne () {
-//		 double[] output = discreteHaarWaveletTransform(z, 1);
-//		 double s = 0;
-//		 for (int i = 0; i < output.length/2 ; i++) {
-//			 s = s + Math.abs(output[i]);
-//		 }
-//		 return s/(output.length/2);
-//	 }
-//	 
-//	 
-//	 public double AvpWaveletZLevelOne () {
-//		 double[] output = discreteHaarWaveletTransform(y, 1);
-//		 double s = 0;
-//		 for (int i = 0; i < output.length/2 ; i++) {
-//			 s = s + Math.pow(output[i],2);
-//		 }
-//		 return s/(output.length/2);
-//	 }
-	 
+
 	 public static double[] discreteHaarWaveletTransform(double[] input, int level) {
 		    // This function assumes that input.length=2^n, n>1
 		 double[] output = new double[input.length];

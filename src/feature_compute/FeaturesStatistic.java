@@ -877,7 +877,7 @@ public double getIgTheta(){ //
 		 }
 		 //do lech chuan
 		 std = Math.sqrt(t/(output.length/2 -1));			 
-		 return rs/((output.length/2)*std);
+		 return rs/((output.length/2)*Math.pow(std,3));
 	 }
 	 
 	 
@@ -902,7 +902,7 @@ public double getIgTheta(){ //
 		 }
 		 //do lech chuan
 		 std = Math.sqrt(t/(output.length/2 -1));		 
-		 return rs/((output.length/2)*std);
+		 return rs/((output.length/2)*Math.pow(std,3));
 	 }
 	 
 	 
@@ -968,7 +968,7 @@ public double getIgTheta(){ //
 		 }
 		 //do lech chuan
 		 std = Math.sqrt(t/(output.length/2 -1));			 
-		 return rs/((output.length/2)*std);
+		 return rs/((output.length/2)*Math.pow(std,3));
 	 }
 	 
 	 
@@ -991,7 +991,7 @@ public double getIgTheta(){ //
 		 }
 		 //do lech chuan
 		 std = Math.sqrt(t/(output.length/2 -1));			 
-		 return rs/((output.length/2)*std);
+		 return rs/((output.length/2)*Math.pow(std,3));
 	 }
 	 
 	 
@@ -1055,7 +1055,7 @@ public double getIgTheta(){ //
 			 }
 			 //do lech chuan
 			 std = Math.sqrt(t/(output.length/2 -1));			 
-			 return rs/((output.length/2)*std);
+			 return rs/((output.length/2)*Math.pow(std,3));
 		 }
 		 
 		 
@@ -1078,7 +1078,7 @@ public double getIgTheta(){ //
 			 }
 			 //do lech chuan
 			 std = Math.sqrt(t/(output.length/2 -1));			 
-			 return rs/((output.length/2)*std);
+			 return rs/((output.length/2)*Math.pow(std,3));
 		 }
 		 
 	 
